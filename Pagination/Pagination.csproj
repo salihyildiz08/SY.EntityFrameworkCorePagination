@@ -11,10 +11,37 @@
     <Product>Entity Framework Core Pagination</Product>
     <Description>With this package you can paginate all your list.</Description>
     <Copyright>Copyright2025</Copyright>
+    <PackageProjectUrl>https://github.com/salihyildiz08/SY.EntityFrameworkCorePagination</PackageProjectUrl>
+    <PackageIcon>nuget icon.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/salihyildiz08/SY.EntityFrameworkCorePagination</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>EntityFrameworkCore Pagination</PackageTags>
+    <NeutralLanguage>tr</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\..\..\..\nuget icon.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
