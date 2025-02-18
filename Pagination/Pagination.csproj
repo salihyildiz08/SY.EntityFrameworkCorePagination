@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>SY.EntityFrameworkCorePagination.Nuget</PackageId>
+    <Title>Entity Framework Core Pagination</Title>
+    <Authors>Salih Yıldız</Authors>
+    <Company>Salih Yıldız</Company>
+    <Product>Entity Framework Core Pagination</Product>
+    <Description>With this package you can paginate all your list.</Description>
+    <Copyright>Copyright2025</Copyright>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+</Project>
