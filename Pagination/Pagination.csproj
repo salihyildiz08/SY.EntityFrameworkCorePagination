@@ -19,7 +19,7 @@
     <PackageTags>EntityFrameworkCore Pagination</PackageTags>
     <NeutralLanguage>tr</NeutralLanguage>
     <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
-    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
